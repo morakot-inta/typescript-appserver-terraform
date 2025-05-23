@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "tsx --watch",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -21,4 +21,5 @@
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
+
 }
